@@ -32,7 +32,7 @@ $(function () {
             url: '/api/orders',
             data: order,
             success: function(newOrder) {
-                $orders.append('<li>name: '+ newOrder.name +', drink: '+ newOrder.drink + '</li>');
+                addOrder(newOrder);
             },
             error: function() {
                 alert('error saving order');
