@@ -28,6 +28,30 @@ Type: JSON
 
 Sample Post: 
 {
-    name: 'James'
-    drink: 'Coffee'
+    name: 'James',
+    drink: 'Coffee',
 }
+
+Sample Response:
+{
+    id: 3,
+    name: 'James',
+    drink: 'Coffee',
+}
+
+--------------
+Update an Orders
+
+PUT request to /api/orders/{id}
+
+Sample Post: 
+{
+    id: 1,
+    name: 'James',
+    drink: 'Coffee',
+}
+
+---------------
+Delete an Orders
+
+DELETE request to /api/order/{id}
