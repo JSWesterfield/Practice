@@ -1,0 +1,33 @@
+From Backend Team 
+
+API
+
+-------------
+Get All Orders
+
+GET request to /api/Orders
+Sample Response: 
+[
+    {
+        id:1,
+        name: 'James',
+        drink: 'Coffee
+    },
+    {
+        id: 2,
+        name: 'John',
+        drink: 'Latte'
+    },
+]
+
+--------------
+Add an Orders
+
+POST request to /api/orders
+Type: JSON
+
+Sample Post: 
+{
+    name: 'James'
+    drink: 'Coffee'
+}
